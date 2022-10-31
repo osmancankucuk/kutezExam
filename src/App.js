@@ -202,7 +202,7 @@ const App = () => {
             </Formik>
             {isInfoComplete ? (
               <div className="textLight">
-                Your Estimated Shipping Date is{"   "}
+                Your Estimated Shipping Time is{"   "}
                 <h3 className="textStrong">{moment(estTime).format("LL")}</h3>
               </div>
             ) : (
